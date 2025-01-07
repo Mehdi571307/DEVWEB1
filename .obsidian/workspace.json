@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git-Github/Séance 19-12-2024.md",
+                "file": "Base de données/Séance 07-01-2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Séance 19-12-2024"
+              "title": "Séance 07-01-2025"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Signet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,16 +164,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5abec77458fb138a",
+  "active": "b7837bb45017a886",
   "lastOpenFiles": [
+    "Base de données/Fiche Bases de données, MCD, MLD.pdf",
+    "Base de données/Séance 06-01-2025.md",
+    "Git-Github/Séance 19-12-2024.md",
     "Git-Github/Séance 24-12-2024.md",
     "2025-01-07.md",
     "Sans titre 1.canvas",
     "Web design/Séance 07-01-2025.md",
-    "Base de données/Séance 06-01-2025.md",
     "Web design/client-brief.md",
     "Base de données/Séance 07-01-2025.md",
-    "Base de données/Fiche Bases de données, MCD, MLD.pdf",
     "Base de données/Drawing 2025-01-07 16.35.52.excalidraw.md",
     "Base de données/Drawing 2025-01-06 08.43.28.excalidraw.md",
     "2025-01-07_19h29_19.png",
@@ -183,7 +185,6 @@
     "Excalidraw/Sans titre.md",
     "Web design",
     "Git-Github/Séance 02-01-2025.md",
-    "Git-Github/Séance 19-12-2024.md",
     "Sans titre.canvas",
     "Excalidraw",
     "Base de données",
