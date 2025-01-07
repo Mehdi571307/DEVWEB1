@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "198a1a7722be4fa2",
@@ -181,11 +180,13 @@
   },
   "active": "14c0c0005e27269d",
   "lastOpenFiles": [
+    "2025-01-07_20h33_44.png",
+    "2025-01-07_20h33_29.png",
+    "Web design/Séance 07-01-2025.md",
+    "Base de données/Séance 07-01-2025.md",
     "Exemples MCD-MLD.pdf",
     "Base de données/Séance 06-01-2025.md",
-    "Base de données/Séance 07-01-2025.md",
     "client-brief.md",
-    "Web design/Séance 07-01-2025.md",
     "Base de données/Drawing 2025-01-07 16.35.52.excalidraw.md",
     "2025-01-07_19h29_19.png",
     "Base de données/Drawing 2025-01-06 08.43.28.excalidraw.md",
@@ -207,7 +208,6 @@
     "DEVWEB1-2024-2025",
     "index.html",
     "Nouveau Document texte.txt",
-    "index.txt",
     "versionner 1.png",
     "versionner.png",
     "Bienvenue.md"
