@@ -32,9 +32,21 @@
               "icon": "lucide-file",
               "title": "Fiche requêtes SQL"
             }
+          },
+          {
+            "id": "723cc05ae8d1f931",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "HTML-CSS/Drawing 2025-01-16 09.37.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-16 09.37.53.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,25 +214,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "246680a44a1f0761",
+  "active": "723cc05ae8d1f931",
   "lastOpenFiles": [
+    "HTML-CSS/Séance 20-01-2025.md",
+    "2025-01-20_14h52_50.png",
+    "2025-01-20_14h31_39.png",
+    "2025-01-20_14h26_49.png",
+    "2025-01-20_14h13_04.png",
+    "2025-01-20_14h10_50.png",
+    "2025-01-20_13h54_44.png",
+    "2025-01-20_13h52_16.png",
+    "Base de données/Fiche requêtes SQL.md",
     "2025-01-18_17h29_14.png",
     "2025-01-18_17h28_50.png",
     "2025-01-18_17h26_46.png",
     "README.md",
-    "Base de données/Fiche requêtes SQL.md",
     "HTML-CSS/Drawing 2025-01-16 09.37.53.excalidraw.md",
     "Excalidraw/Drawing 2025-01-16 11.20.45.excalidraw.md",
     "Excalidraw/Drawing 2025-01-16 11.20.44.excalidraw.md",
     "HTML-CSS/Séance 16-01-2025.md",
     "2025-01-07.md",
-    "2025-01-07_19h29_19.png",
-    "2025-01-07_20h33_44.png",
-    "2025-01-08_08h36_34.png",
-    "2025-01-08_08h37_07.png",
     "Sans titre.canvas",
-    "versionner 1.png",
-    "versionner.png",
     "Sans titre 1.canvas",
     "Web design/Séance 14-01-2025.md",
     "Web design/Séance 07-01-2025.md",
@@ -230,7 +244,6 @@
     "Base de données/Séance 06-01-2025.md",
     "HTML-CSS/Séance 10-01-2025.md",
     "HTML-CSS",
-    "cas-pratique-SQL.webp",
     "Fiche Bases de données, MCD, MLD 1.pdf",
     "Fiche Bases de données, MCD, MLD.pdf",
     "Base de données/Fiche Bases de données, MCD, MLD.pdf",
@@ -238,7 +251,6 @@
     "Web design/client-brief.md",
     "Base de données/Drawing 2025-01-07 16.35.52.excalidraw.md",
     "Base de données/Drawing 2025-01-06 08.43.28.excalidraw.md",
-    "2025-01-07_20h33_29.png",
     "Exemples MCD-MLD.pdf",
     "Excalidraw/Sans titre.md",
     "Web design",
