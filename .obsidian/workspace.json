@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Base de données/10 Modifier des données de la table.md",
+                "file": "PHP/5 Do While.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Modifier des données de la table"
+              "title": "5 Do While"
             }
           }
         ]
@@ -103,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "right": {
     "id": "198a1a7722be4fa2",
@@ -192,19 +191,33 @@
   },
   "active": "d1f8c5467133b859",
   "lastOpenFiles": [
-    "2025-01-27_16h35_29.png",
-    "2025-01-27_16h35_10.png",
-    "2025-01-27_16h32_09.png",
-    "2025-01-27_16h31_52.png",
-    "2025-01-27_16h28_05.png",
-    "2025-01-27_16h27_46.png",
-    "2025-01-27_16h27_27.png",
-    "Base de données/9 Effacer les données de la base.md",
+    "2025-01-29_14h24_00.png",
+    "2025-01-29_14h23_42.png",
+    "2025-01-29_14h21_33.png",
+    "2025-01-29_14h20_03.png",
+    "PHP/4 La boucle while.md",
+    "PHP/5 Do While.md",
+    "2025-01-29_14h04_01.png",
+    "2025-01-29_14h03_39.png",
+    "2025-01-29_14h00_15.png",
+    "PHP/3 La boucle for.md",
+    "2025-01-29_13h50_20.png",
+    "2025-01-29_13h49_03.png",
+    "2025-01-29_13h32_22.png",
+    "2025-01-29_13h32_01.png",
+    "PHP/2 Les conditionnelles.md",
+    "Base de données/12 Supprimer des tables.md",
+    "Base de données/Séance 29-01-2025 MongoDB.md",
+    "Base de données/Drawing 2025-01-16 11.20.44.excalidraw.md",
+    "Base de données/11 Créer des tables.md",
     "Base de données/10 Modifier des données de la table.md",
-    "2025-01-27_16h10_45.png",
-    "2025-01-27_16h10_27.png",
-    "2025-01-27_16h05_43.png",
-    "2025-01-27_16h05_22.png",
+    "Base de données/Séance 08-01-2025.md",
+    "PHP/1 Les variables.md",
+    "Sans titre.md",
+    "Sans titre 1.md",
+    "PHP",
+    "HTML-CSS/Séance 28-01-2025.md",
+    "Base de données/9 Effacer les données de la base.md",
     "Base de données/8 Insérer de nouvelles lignes dans une table.md",
     "Base de données/7 Having Faire des restrictions à l'aide de champs calculés ou des fonctions.md",
     "Base de données/3 Les jointures - Afficher des colonnes depuis plusieurs tables.md",
@@ -215,19 +228,6 @@
     "Web Design/Séance 27-01-2025.md",
     "Base de données/Fiche requêtes SQL.md",
     "HTML-CSS/Drawing 2025-01-16 11.20.45.excalidraw.md",
-    "HTML-CSS/Drawing 2025-01-16 09.37.53.excalidraw.md",
-    "HTML-CSS/Séance 24-01-2025.md",
-    "Base de données/1 ( Afficher les colonnes depuis une table ).md",
-    "Base de données/Séance 06-01-2025.md",
-    "Base de données/2 ( Trier les données ).md",
-    "Web Design/Séance 22-01-2025.md",
-    "Sans titre.md",
-    "Base de données/Séance 08-01-2025.md",
-    "Web Design/Séance 07-01-2025.md",
-    "Web Design/Séance 14-01-2025.md",
-    "HTML-CSS/Séance 20-01-2025.md",
-    "HTML-CSS/Séance 10-01-2025.md",
-    "HTML-CSS/Séance 16-01-2025.md",
     "Fiche Bases de données, MCD, MLD.pdf",
     "Fiche Bases de données, MCD, MLD 1.pdf",
     "Sans titre 1.canvas",
@@ -238,7 +238,6 @@
     "Web Design",
     "Excalidraw",
     "Base de données",
-    "Bootstrap",
-    "DEVWEB1-2024-2025"
+    "Bootstrap"
   ]
 }
