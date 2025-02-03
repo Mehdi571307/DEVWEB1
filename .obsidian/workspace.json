@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/5 Do While.md",
+                "file": "Projet fil rouge/Idées pour le projet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 Do While"
+              "title": "Idées pour le projet"
             }
           }
         ]
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "198a1a7722be4fa2",
@@ -191,12 +192,16 @@
   },
   "active": "d1f8c5467133b859",
   "lastOpenFiles": [
+    "Web Design/Séance 07-01-2025.md",
+    "Projet fil rouge/Idées pour le projet.md",
+    "HTML-CSS/Accessibilité.md",
+    "Projet fil rouge",
+    "PHP/5 Do While.md",
     "2025-01-29_14h24_00.png",
     "2025-01-29_14h23_42.png",
     "2025-01-29_14h21_33.png",
     "2025-01-29_14h20_03.png",
     "PHP/4 La boucle while.md",
-    "PHP/5 Do While.md",
     "2025-01-29_14h04_01.png",
     "2025-01-29_14h03_39.png",
     "2025-01-29_14h00_15.png",
@@ -204,7 +209,6 @@
     "2025-01-29_13h50_20.png",
     "2025-01-29_13h49_03.png",
     "2025-01-29_13h32_22.png",
-    "2025-01-29_13h32_01.png",
     "PHP/2 Les conditionnelles.md",
     "Base de données/12 Supprimer des tables.md",
     "Base de données/Séance 29-01-2025 MongoDB.md",
@@ -226,8 +230,6 @@
     "Base de données/5 Les champs calculés et les fonctions d'agrégations.md",
     "Base de données/Drawing 2025-01-06 08.43.28.excalidraw.md",
     "Web Design/Séance 27-01-2025.md",
-    "Base de données/Fiche requêtes SQL.md",
-    "HTML-CSS/Drawing 2025-01-16 11.20.45.excalidraw.md",
     "Fiche Bases de données, MCD, MLD.pdf",
     "Fiche Bases de données, MCD, MLD 1.pdf",
     "Sans titre 1.canvas",
@@ -237,7 +239,6 @@
     "Exemples MCD-MLD.pdf",
     "Web Design",
     "Excalidraw",
-    "Base de données",
-    "Bootstrap"
+    "Base de données"
   ]
 }
