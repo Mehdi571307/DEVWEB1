@@ -116,3 +116,187 @@ Voici comment on teste une variable booléenne :
 
 L'un des avantages des booléens, c'est qu'ils sont particulièrement adaptés aux conditions.
 
+Parce qu'en fait vous n'êtes pas obligé d'ajouter le`=== true`. 
+
+PHP comprend qu'il faut qu'il vérifie si `$isAllowedToEnter` vaut `true`.
+
+![[2025-02-08_10h24_50.png]]
+
+En effet, si vous « lisez » la première ligne, ça donne :
+
+> « SI on a l'autorisation d'entrer… ».
+
+C'est donc un raccourci à connaître quand on travaille sur des booléens.
+
+Il y a un symbole qui permet de vérifier si la variable vaut `false` : le point d'exclamation (`!`).
+
+On écrit :
+
+![[2025-02-08_10h25_56.png]]
+
+![[2025-02-08_10h27_16.png]]
+
+#### Posez des conditions multiples
+
+Ce qu'on va essayer de faire, c'est de poser plusieurs conditions à la fois. Pour cela, on aura besoin de nouveaux mots-clés. Voici les principaux à connaître :
+
+|Mot-clé|Signification|Symbole équivalent|
+|---|---|---|
+|AND|Et|&&|
+|OR|Ou|\||
+
+![[2025-02-08_10h28_58.png]]
+
+La première colonne contient le mot-clé en anglais, la troisième son équivalent en symbole. Voici un premier exemple :
+
+![[2025-02-08_10h32_49.png]]
+
+C'est tout simple, en fait, et ça se comprend très bien : si l'utilisateur est actif et qu'il est l'auteur, il peut accéder à la recette validée. Sinon, il verra s'afficher un message de refus.
+
+Bon allez, un dernier exemple avec`||`  pour que vous l'ayez vu au moins une fois, et on arrête là.
+
+![[2025-02-08_10h33_19.png]]
+
+Nous rajoutons une condition supplémentaire : soit la condition précédente s'applique, soit l'utilisateur concerné est un administrateur.
+
+#### Utilisez cette astuce bonus
+
+Avec les conditions, il y a une astuce à connaître.  
+Sachez que les deux codes ci-dessous donnent exactement le même résultat :
+
+![[2025-02-08_10h41_35.png]]
+
+![[2025-02-08_10h41_50.png]]
+
+Comme vous le voyez, dans le second cas on n'a pas utilisé de  `echo`  .
+
+La syntaxe pour utiliser la condition diffère un peu :
+
+- Il n'y a pas d'accolade.
+    
+- On ajoute  `:`  après la parenthèse fermante de l'instruction  `if`  .
+    
+- Et il faut ajouter une instruction  `endif;`  .
+
+
+Nous aurons d'ailleurs bientôt l'occasion de pratiquer un peu, et vous verrez que les conditions sont souvent indispensables.
+
+### Utilisez la condition `switch` pour optimiser votre code
+
+En théorie, les structures à base de `if… elseif… else` que je viens de vous montrer suffisent pour traiter n'importe quelle condition.
+
+Mais alors, pourquoi se compliquer la vie avec une autre structure ?
+
+Pour vous montrer l'intérêt de `switch` ! Vous allez bientôt comprendre…
+
+Regardez cet exemple à base de `if`  et de `elseif`  :
+
+![[2025-02-08_10h44_20.png]]
+
+Comme vous le voyez : c'est lourd, long, et répétitif.
+
+Dans ce cas, on peut utiliser une autre structure plus souple : c'est `switch` !
+
+Voici le même exemple avec `switch`  (le résultat est le même, mais le code est plus adapté) :
+
+![[2025-02-08_10h45_53.png]]
+
+
+Bon alors, qu'est-ce qui est différent ?
+
+- Il y a beaucoup moins d'accolades : elles marquent seulement le début et la fin du  `switch`  .
+    
+- On indique au début du switch sur quelle variable on travaille, ici `$grade`. On dit à PHP :
+    
+
+> Je vais analyser la valeur de  `$grade`  .
+
+- On utilise des `case` pour analyser chaque cas : `case 0` ,`case 10` , etc. Cela signifie :
+    
+
+> Dans le cas où la valeur est 0… Dans le cas où la valeur est 10…
+
+L'avantage d'utiliser switch, est qu'on a plus besoin de mettre de triple égal !
+
+Attention ! Cela ne fonctionne pas avec les autres symboles < > <= >= !==
+
+Le `switch` ne peut tester que l'égalité.
+
+Le mot-clé `default` à la fin est un peu l'équivalent du  `else`  .
+
+C'est le message qui s'affiche par défaut, quelle que soit la valeur de la variable.
+
+
+Il y a cependant une chose importante à savoir :
+
+Supposons dans notre exemple que la note soit de 10.
+
+PHP va lire :
+
+> `case 0` ? Non. Je saute. 
+> 
+> `case 5` ? Non plus. Je saute. 
+> 
+> `case 7` ? Non plus. Je saute. 
+> 
+> `case 10` ? Oui, j'exécute les instructions.
+
+
+![[2025-02-08_10h59_49.png]]
+
+Pour empêcher cela, utilisez l'instruction `break`
+
+![[2025-02-08_11h00_16.png]]
+
+En pratique, on utilise très souvent un `break` car sinon, PHP lit des instructions qui suivent et qui ne conviennent pas.
+
+Essayez d'enlever les `break` dans le code précédent, vous allez comprendre pourquoi ils sont indispensables !
+
+
+![[2025-02-08_11h01_23.png]]
+
+
+C'est surtout un problème de présentation et de clarté :
+
+1. Pour une condition simple et courte, on utilise le  `if`  .
+    
+2. Et quand on a une série de conditions à analyser, on préfère utiliser `switch` pour rendre le code plus clair.
+    
+
+### Découvrez les ternaires : des conditions condensées
+
+Il existe une autre forme de condition, beaucoup moins fréquente, mais que je vous présente quand même car vous pourriez un jour ou l'autre tomber dessus. Il s'agit de ce qu'on appelle les **ternaires**.
+
+![[2025-02-08_11h02_27.png]]
+
+Prenons cet exemple à base de `if… else`  qui met un booléen `$majeur`  à vrai ou faux selon l'âge du visiteur :
+
+![[2025-02-08_11h04_19.png]]
+
+On peut faire la même chose en une seule ligne grâce à une structure ternaire :
+
+![[2025-02-08_11h05_43.png]]
+
+Ici, tout notre test précédent a été fait sur une seule ligne !
+
+La condition testée est `$userAge >= 18`  .
+
+Si c'est vrai, alors la valeur indiquée après le point d'interrogation (ici `true`) sera affectée à la variable  `$isAdult`  .
+
+Sinon, c'est la valeur qui suit le symbole `:` (ici `false` ) qui sera affectée à  `$isAdult`  .
+
+C'est un peu tordu, mais ça marche.
+
+![[2025-02-08_11h08_03.png]]
+
+### En résumé
+
+- Les conditions permettent à PHP de prendre des décisions en fonction de la valeur des variables.
+    
+- La forme de condition la plus courante est `if`  ...  `elseif`  ... `else`  qui signifie « si »… « sinon si »… « sinon ».
+    
+- On peut combiner des conditions avec les instructions`&&`  (« et ») et`||`  (« ou »).
+    
+- Si une condition comporte de nombreux `elseif` , il peut être plus pratique d'utiliser la condition `switch`.
+    
+- Les ternaires sont des conditions condensées qui font un test sur une variable, et en fonction des résultats de ce test, elles donnent une valeur à une autre variable. Elles sont cependant plus rarement utilisées.
