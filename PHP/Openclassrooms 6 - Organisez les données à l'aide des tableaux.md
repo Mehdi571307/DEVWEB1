@@ -350,3 +350,22 @@ Avec tout ce que nous avons appris dans ce chapitre, nous pouvons améliorer le 
 
 ![[2025-02-09_13h22_26.png]]
 
+![[2025-02-16_16h26_39.png]]
+### En résumé
+
+- Les tableaux (ou _arrays_) sont des variables représentées sous forme de tableau. Elles peuvent stocker de grandes quantités d'informations.
+    
+- Chaque ligne d'un tableau possède une clé (qui permet de l'identifier) et une valeur.
+    
+- Il existe deux types de tableaux :
+    
+    - les tableaux **numérotés** : chaque ligne est identifiée par une clé numérotée. La numérotation commence à partir de 0 ;
+        
+    - les tableaux **associatifs** : chaque ligne est identifiée par une courte chaîne de texte.
+        
+- Pour parcourir un tableau, on peut utiliser la boucle `for`  que l'on connaît déjà, mais aussi la boucle `foreach`  qui est dédiée aux tableaux.
+    
+- Il existe de nombreuses fonctions permettant de travailler sur des tableaux, notamment pour effectuer des recherches.
+    
+
+_Dans le prochain chapitre, nous allons aborder les fonctions PHP, et vous verrez, vous ne pourrez bientôt plus vous en passer !_
